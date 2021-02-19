@@ -15,7 +15,8 @@ function App() {
     <div id="main">
       {/* // Do not alter the main div */}
       <button id="click" onClick={handleClick}>click me</button>
-      {addPara()}
+      {/* {addPara()} */}
+      {isClicked && <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
     </div>
   );
 }
