@@ -16,7 +16,7 @@ function App() {
       {/* // Do not alter the main div */}
       <button id="click" onClick={handleClick}>click me</button>
       {/* {addPara()} */}
-      {isClicked && <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
+      {isClicked && <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
     </div>
   );
 }
